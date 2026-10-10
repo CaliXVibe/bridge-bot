@@ -29,4 +29,8 @@ Quarterly: review and rotate all connected tokens. Log the date in STATE.md. Tok
 
 ## Data residency
 
-Connected data can flow into prompts, caches, summaries, and training-adjacent artifacts, sometimes via downstream subprocessors. Mitigations: keep this repo private, put no secrets or personal data in repo files, prefer connectors with documented retention policies, and audit what each platform has indexed.
+Connected data can flow into prompts, caches, summaries, and training-adjacent artifacts, sometimes via downstream subprocessors. Mitigations: keep this repo private, put no secrets or personal data in repo files, only references to a vault, prefer connectors with documented retention policies, and audit what each platform has indexed.
+
+## Reporting vulnerabilities
+
+This is an open-source template. If you find a security issue, open a GitHub issue or email the maintainer rather than posting it publicly. Do not include secrets, tokens, or personal data in any report.
